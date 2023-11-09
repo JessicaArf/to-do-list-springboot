@@ -25,4 +25,15 @@ public class TodoController {
         return todoService.list();
     }
 
+
+    @PutMapping
+    List<Todo> update(Todo todo) {
+        return todoService.update(todo);
+    }
+
+    @DeleteMapping
+    List<Todo> delete(Long id) {
+        return todoService.delete(id);
+    }
+
 }
