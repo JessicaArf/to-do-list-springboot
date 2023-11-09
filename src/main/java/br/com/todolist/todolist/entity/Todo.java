@@ -20,6 +20,4 @@ public class Todo {
     private boolean realizado;
     private int prioridade;
 
-
-
 }
